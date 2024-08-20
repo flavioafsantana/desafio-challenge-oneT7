@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Intersect</title>
+</head>
+<body>
+    <main>
+        <div class="imagem">
+            <img class="imagem__logo" src="images/logo.png" alt="Logo Estilo Serie Chuck">
+        </div>
+        <section>
+            <textarea class="text-area" placeholder="Digite seu texto"></textarea>
+            
+            <div class="informacao">
+                <h6>APENAS LETRAS MINÚSCULAS E SEM ACENTOS.</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="botao-criptografar" onclick="criptografar()" id="criptografar">CRIPTOGRAFAR</button>
+                <button class="botao-descriptografar" onclick="descriptografar()" id="descriptografar">DESCRIPTOGRAFAR</button>
+            </div>
+        </section>
+
+        <section class="campoSaida">
+            <div class="campoSaida__texto" > </div>
+            <div class="campoSaida__conteudo">
+                <img class="campoSaida__conteudo__imagem" src="images/cracha.png" alt="cracha">
+                <h2 class="campoSaida__conteudo__mensagem1">Nenhuma mensagem encontrada</h2>
+                <p class="campoSaida__conteudo__mensagem2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+            <button class="botao-copiar" onclick="copiar()">COPIAR</button>
+        </section>
+        <script src="app.js"></script>
+    </main>
+    <footer class="rodape"> 
+        <img class="rodape__imagem" src="images/footer.png" alt="Desenvolvido por Flavio Santana">
+        <div class="rodape__link">
+            <a class="rodape__link__link" href="https://linkedin.com/in/flavioafsantana"> <img class="rodape__link__imagem" src="images/linkedin.png" alt="logo do linkedin"></a>
+            <a class="rodape__link__link" href="https://github.com/flavioafsantana"> <img class="rodape__link__imagem" src="images/github.png" alt="logo do github"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
